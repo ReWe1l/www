@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная — Мой Сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Мой Сайт</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Добро пожаловать!</h1>
+        <p>Это главная страница сайта, работающего внутри Docker-контейнера.</p>
+        <a href="about.html" class="btn">Подробнее о нас</a>
+    </section>
+
+    <section class="features">
+        <div class="card">
+            <h3>Docker</h3>
+            <p>Сайт собран на основе готового образа nginx.</p>
+        </div>
+        <div class="card">
+            <h3>HTML + CSS</h3>
+            <p>Статичные страницы, добавленные в образ через COPY.</p>
+        </div>
+        <div class="card">
+            <h3>Две страницы</h3>
+            <p>Главная и страница «О нас» с навигацией между ними.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Мой Сайт. Лабораторная работа по Docker.</p>
+    </footer>
+
+</body>
+</html>

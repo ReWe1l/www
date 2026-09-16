@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас — Мой Сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Мой Сайт</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>О нас</h1>
+        <p>Мы — студенты, изучающие Docker и веб-разработку.</p>
+    </section>
+
+    <section class="content">
+        <h2>Что делает этот сайт</h2>
+        <p>
+            Данный сайт представляет собой статический веб-ресурс, упакованный
+            в Docker-образ на основе официального образа <strong>nginx</strong>.
+            Собственный код (HTML и CSS) добавляется в образ с помощью
+            инструкции <code>COPY</code> в Dockerfile.
+        </p>
+
+        <h2>Используемые технологии</h2>
+        <ul>
+            <li>Docker — контейнеризация приложения</li>
+            <li>nginx — веб-сервер для раздачи статики</li>
+            <li>HTML5 — разметка страниц</li>
+            <li>CSS3 — оформление</li>
+        </ul>
+
+        <a href="index.html" class="btn">← Вернуться на главную</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Мой Сайт. Лабораторная работа по Docker.</p>
+    </footer>
+
+</body>
+</html>
